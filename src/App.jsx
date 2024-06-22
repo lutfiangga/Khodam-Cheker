@@ -50,14 +50,14 @@ function App () {
 
   return (
     <div
-      className='w-dvw h-dvh p-6 flex items-center my-auto'
+      className='w-dvw h-dvh flex items-center my-auto'
       style={{
         backgroundImage: `url(https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/01/2024/06/05/khodamJPG-2452806090.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
     >
-      <main className='flex flex-col justify-center items-center max-w-2xl w-full mx-auto relative border-2 rounded-xl bg-black/30 backdrop-blur-sm'>
+      <main className='flex flex-col justify-center items-center max-w-5xl w-full mx-auto relative border-2 rounded-xl bg-black/30 backdrop-blur-sm'>
         <div className=' flex flex-row gap-4 items-center header'>
           <div className='flex flex-col my-4'>
             <h1 className='text-3xl md:text-5xl font-bold text-gray-200'>
