@@ -65,7 +65,7 @@ function App () {
             </h1>
           </div>
         </div>
-        <div className='w-full input flex justify-center mb-4'>
+        <div className='w-full input flex justify-center'>
           <form
             id='khodamForm'
             className='flex flex-col sm:flex-row gap-4 py-4 w-full px-4 sm:px-12'
@@ -89,7 +89,6 @@ function App () {
           randomKhodam={randomKhodam}
           data={data}
         />
-        <div className='mt-4'></div>
         <div className='absolute bottom-2 text-yellow-500'>
           Created by <span className='font-black'>Phieesu</span>
         </div>
