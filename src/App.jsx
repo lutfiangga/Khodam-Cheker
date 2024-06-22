@@ -91,7 +91,7 @@ function App () {
         />
         <div className='mt-4'></div>
         <div className='absolute bottom-2 text-yellow-500'>
-          Create by <span className='font-black'>Phieesu</span>
+          Created by <span className='font-black'>Phieesu</span>
         </div>
       </main>
     </div>
