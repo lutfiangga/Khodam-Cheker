@@ -50,22 +50,22 @@ function App () {
 
   return (
     <div
-      className='w-dvw h-dvh p-12'
+      className='w-dvw h-dvh p-6 flex items-center my-auto'
       style={{
         backgroundImage: `url(https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/01/2024/06/05/khodamJPG-2452806090.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
     >
-      <main className='flex flex-col min-h-[80vh] justify-center items-center max-w-2xl w-full mx-auto relative border-2 rounded-xl bg-black/30 backdrop-blur-sm'>
+      <main className='flex flex-col justify-center items-center max-w-2xl w-full mx-auto relative border-2 rounded-xl bg-black/30 backdrop-blur-sm'>
         <div className=' flex flex-row gap-4 items-center header'>
-          <div className='flex flex-col'>
+          <div className='flex flex-col my-4'>
             <h1 className='text-3xl md:text-5xl font-bold text-gray-200'>
               CEK KHODAM
             </h1>
           </div>
         </div>
-        <div className='w-full input flex justify-center'>
+        <div className='w-full input flex justify-center mb-4'>
           <form
             id='khodamForm'
             className='flex flex-col sm:flex-row gap-4 py-4 w-full px-4 sm:px-12'
